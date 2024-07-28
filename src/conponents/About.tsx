@@ -12,55 +12,161 @@ const About = () => {
       </h2>
       <div className="scroller relative z-20 overflow-hidden [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]">
         <div className="flex min-w-full shrink-0 gap-4 py-4 w-max flex-nowrap animate-scroll-one hover:[animation-play-state:paused]">
-          <div className="bg-purple-500 w-80 h-40 rounded-lg shadow-lg p-4 flex flex-col justify-around items-center text-white">
-            <p className="text-xl ">#Location: Shanghai, China</p>
-            <p className="text-xl ">#Grade: Sophomore</p>
+          <div className="h-[170px] w-[350px] max-w-full relative rounded-2xl border border-b-0 px-8 py-6 md:w-[450px] overflow-hidden flex flex-col justify-around bg-green-800 ">
+            <p className="text-xl text-white ">#Location: Shanghai, China</p>
+            <p className="text-xl text-white  ">#Grade: Sophomore</p>
           </div>
-          <div className="bg-blue-500 w-80 h-40 rounded-lg shadow-lg p-4 flex flex-col justify-around items-center text-white">
-            <p className="text-lg text-wrap ">
+          <div className="h-[170px] w-[350px] max-w-full relative rounded-2xl border border-b-0 px-8 py-6 md:w-[450px] overflow-hidden flex flex-col justify-around bg-purple-800 ">
+            <p className="text-lg text-wrap text-white  ">
               #School: Nanjing University of Posts and Telecommunications
             </p>
-            <p className="text-lg ">#Major: Computer Science and Technology</p>
+            <p className="text-lg text-white  ">
+              #Major: Computer Science and Technology
+            </p>
           </div>
-          <div className="bg-green-500 w-80 h-40 rounded-lg shadow-lg p-4 flex flex-col justify-around items-center text-white">
-            <p className="text-xl ">#CET-4/6: Passed</p>
-            <p className="text-xl ">#NCRE-2: Passed</p>
+          <div className="h-[170px] w-[350px] max-w-full relative rounded-2xl border border-b-0 px-8 py-6 md:w-[450px] overflow-hidden flex flex-col justify-around bg-blue-800 ">
+            <p className="text-xl text-white  ">#CET-4/6: Passed</p>
+            <p className="text-xl text-white  ">#NCRE-2: Passed</p>
           </div>
-          <div className="bg-purple-500 w-80 h-40 rounded-lg shadow-lg p-4 flex flex-col justify-around items-center text-white">
-            <p className="text-xl ">#Location: Shanghai, China</p>
-            <p className="text-xl ">#Grade: Sophomore</p>
+          <div className="h-[170px] w-[350px] max-w-full relative rounded-2xl border border-b-0 px-8 py-6 md:w-[450px] overflow-hidden flex flex-col justify-around bg-green-800 ">
+            <p className="text-xl text-white  ">#Location: Shanghai, China</p>
+            <p className="text-xl text-white  ">#Grade: Sophomore</p>
           </div>
-          <div className="bg-blue-500 w-80 h-40 rounded-lg shadow-lg p-4 flex flex-col justify-around items-center text-white">
-            <p className="text-lg ">
+          <div className="h-[170px] w-[350px] max-w-full relative rounded-2xl border border-b-0 px-8 py-6 md:w-[450px] overflow-hidden flex flex-col justify-around bg-purple-800 ">
+            <p className="text-lg text-white  ">
               #School: Nanjing University of Posts and Telecommunications
             </p>
-            <p className="text-lg ">#Major: Computer Science and Technology</p>
+            <p className="text-lg text-white  ">
+              #Major: Computer Science and Technology
+            </p>
           </div>
-          <div className="bg-green-500 w-80 h-40 rounded-lg shadow-lg p-4 flex flex-col justify-around items-center text-white">
-            <p className="text-xl ">#CET-4/6: Passed</p>
-            <p className="text-xl ">#NCRE-2: Passed</p>
+          <div className="h-[170px] w-[350px] max-w-full relative rounded-2xl border border-b-0 px-8 py-6 md:w-[450px] overflow-hidden flex flex-col justify-around bg-blue-800 ">
+            <p className="text-xl text-white  ">#CET-4/6: Passed</p>
+            <p className="text-xl text-white  ">#NCRE-2: Passed</p>
           </div>
         </div>
       </div>
       <div className="scroller relative z-20 overflow-hidden [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]">
         <div className="flex min-w-full shrink-0 gap-4 py-4 w-max flex-nowrap animate-scroll-two hover:[animation-play-state:paused]">
-          <div className="bg-red-500 w-80 h-40 rounded-lg shadow-lg p-4 flex flex-col justify-around items-center text-white">
-            Second Layer - Card 1
+          <div className="h-[170px] w-[350px] max-w-full relative rounded-2xl border border-b-0 px-8 py-6 md:w-[450px] overflow-hidden flex flex-col gap-1 bg-red-800 ">
+            <a
+              href="https://music.163.com/#/user/home?id=429211086"
+              className="h-auto flex flex-col"
+            >
+              <div className="flex text-white gap-2 items-center justify-between">
+                <p className="text-lg font-bold">核糖体</p>
+                <div className="text-md flex justify-around items-center text-gray-200">
+                  <img
+                    src="public/images/wyy.png"
+                    className="w-10 h-10 rounded-full"
+                  />
+                </div>
+              </div>
+              <p className="text-md text-gray-200">
+                The music app I've been using since middle school records my
+                favorite music styles from each period, filled with memories.
+              </p>
+            </a>
           </div>
-          <div className="bg-yellow-500 w-80 h-40 rounded-lg shadow-lg p-4 flex flex-col justify-around items-center text-white">
-            Second Layer - Card 2
+          <div className="h-[170px] w-[350px] max-w-full relative rounded-2xl border border-b-0 px-8 py-6 md:w-[450px] overflow-hidden flex flex-col gap-1 bg-blue-500 ">
+            <a
+              href="https://github.com/silver-blinder"
+              className="h-auto flex flex-col"
+            >
+              <div className="flex text-white gap-2 items-center justify-between">
+                <p className="text-lg font-bold">silver-blinder</p>
+                <div className="text-md flex justify-around items-center text-gray-200">
+                  <img
+                    src="public/images/github-mark-white.png"
+                    className="w-10 h-10 rounded-full"
+                  />
+                </div>
+              </div>
+              <p className="text-md text-gray-200">
+                It records my technical updates and open-source projects I'm
+                interested in.
+              </p>
+            </a>
           </div>
-          <div className="bg-indigo-500 w-80 h-40 rounded-lg shadow-lg p-4 flex flex-col justify-around items-center text-white">
-            Second Layer - Card 3
+          <div className="h-[170px] w-[350px] max-w-full relative rounded-2xl border border-b-0 px-8 py-6 md:w-[450px] overflow-hidden flex flex-col gap-1 bg-green-500 ">
+            <a
+              href="https://www.douban.com/people/169216456/?_i=214817863Sunps"
+              className="h-auto flex flex-col"
+            >
+              <div className="flex text-white gap-2 items-center justify-between">
+                <p className="text-lg font-bold">风流倜傥夜无邪</p>
+                <div className="text-md flex justify-around items-center text-gray-200">
+                  <img
+                    src="public/images/douban.png"
+                    className="w-10 h-10 rounded-full"
+                  />
+                </div>
+              </div>
+              <p className="text-md text-gray-200">
+                It keeps track of the movies and TV shows I've watched, along
+                with some reviews, though the records are incomplete.
+              </p>
+            </a>
           </div>
-          <div className="bg-red-500 w-80 h-40 rounded-lg shadow-lg p-4 flex flex-col justify-around items-center text-white">
-            Second Layer - Card 1
+          <div className="h-[170px] w-[350px] max-w-full relative rounded-2xl border border-b-0 px-8 py-6 md:w-[450px] overflow-hidden flex flex-col gap-1 bg-red-800 ">
+            <a
+              href="https://music.163.com/#/user/home?id=429211086"
+              className="h-auto flex flex-col"
+            >
+              <div className="flex text-white gap-2 items-center justify-between">
+                <p className="text-lg font-bold">核糖体</p>
+                <div className="text-md flex justify-around items-center text-gray-200">
+                  <img
+                    src="public/images/wyy.png"
+                    className="w-10 h-10 rounded-full"
+                  />
+                </div>
+              </div>
+              <p className="text-md text-gray-200">
+                The music app I've been using since middle school records my
+                favorite music styles from each period, filled with memories.
+              </p>
+            </a>
           </div>
-          <div className="bg-yellow-500 w-80 h-40 rounded-lg shadow-lg p-4 flex flex-col justify-around items-center text-white">
-            Second Layer - Card 2
+          <div className="h-[170px] w-[350px] max-w-full relative rounded-2xl border border-b-0 px-8 py-6 md:w-[450px] overflow-hidden flex flex-col gap-1 bg-blue-500 ">
+            <a
+              href="https://github.com/silver-blinder"
+              className="h-auto flex flex-col"
+            >
+              <div className="flex text-white gap-2 items-center justify-between">
+                <p className="text-lg font-bold">silver-blinder</p>
+                <div className="text-md flex justify-around items-center text-gray-200">
+                  <img
+                    src="public/images/github-mark-white.png"
+                    className="w-10 h-10 rounded-full"
+                  />
+                </div>
+              </div>
+              <p className="text-md text-gray-200">
+                It records my technical updates and open-source projects I'm
+                interested in.
+              </p>
+            </a>
           </div>
-          <div className="bg-indigo-500 w-80 h-40 rounded-lg shadow-lg p-4 flex flex-col justify-around items-center text-white">
-            Second Layer - Card 3
+          <div className="h-[170px] w-[350px] max-w-full relative rounded-2xl border border-b-0 px-8 py-6 md:w-[450px] overflow-hidden flex flex-col gap-1 bg-green-500">
+            <a
+              href="https://www.douban.com/people/169216456/?_i=214817863Sunps"
+              className="h-auto flex flex-col"
+            >
+              <div className="flex text-white gap-2 items-center justify-between">
+                <p className="text-lg font-bold">风流倜傥夜无邪</p>
+                <div className="text-md flex justify-around items-center text-gray-200">
+                  <img
+                    src="public/images/douban.png"
+                    className="w-10 h-10 rounded-full"
+                  />
+                </div>
+              </div>
+              <p className="text-md text-gray-200">
+                It keeps track of the movies and TV shows I've watched, along
+                with some reviews, though the records are incomplete.
+              </p>
+            </a>
           </div>
         </div>
       </div>

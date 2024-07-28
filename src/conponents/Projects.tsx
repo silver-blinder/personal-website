@@ -12,12 +12,10 @@ const Projects = () => {
       ),
       technologies: (
         <>
-          <strong>
-            Vite + React, TypeScript, and Tailwind CSS
-          </strong>
+          <strong>Vite + React, TypeScript, and Tailwind CSS</strong>
         </>
       ),
-      github: "https://github.com/silver-blinder/SocialMediaApp",
+      github: "https://github.com/silver-blinder/personal-website",
       liveDemo: "https://rgram-social-media.vercel.app/sign-in",
     },
     {

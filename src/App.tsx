@@ -1,14 +1,6 @@
 import { useEffect, useRef } from "react";
 import "./App.css";
-import {
-  About,
-  Contact,
-  Header,
-  Hobbies,
-  Home,
-  Projects,
-  Skills,
-} from "./conponents";
+import { About, Header, Hobbies, Home, Projects, Skills } from "./conponents";
 
 import WhiteCircle from "/public/images/white-circle.png";
 
@@ -82,7 +74,6 @@ function App() {
           <Skills />
           <Projects />
           <Hobbies />
-          <Contact />
         </div>
       </main>
     </>

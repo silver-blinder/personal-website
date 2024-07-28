@@ -18,9 +18,6 @@ const Header = () => {
           <a className="hidden lg:block" href="/#hobbies">
             Hobbies
           </a>
-          <a className="hidden lg:block" href="/#contact">
-            Contact
-          </a>
         </nav>
       </div>
     </header>

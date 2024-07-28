@@ -19,8 +19,8 @@ const Home = () => {
   const options = [
     { href: "/#about", text: "In-college student" },
     { href: "/#skills", text: "Front-end developer" },
-    { href: "/#hobbies", text: "Traveler" },
-    { href: "/#hobbies", text: "Guitar player" },
+    { href: "/#projects", text: "Traveler" },
+    { href: "/#hobbies", text: "Music lover" },
   ];
 
   return (
