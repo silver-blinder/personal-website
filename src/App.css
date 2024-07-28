@@ -1,0 +1,86 @@
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
+  }
+}
+
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(40, end) 1s 1 normal both,
+    blink-caret 0.75s step-end infinite;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes scroll-one {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes scroll-two {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll-one {
+  animation: scroll-one 60s linear infinite;
+}
+
+.animate-scroll-two {
+  animation: scroll-two 60s linear infinite;
+}
+
+.hover\:animation-play-state\:paused:hover {
+  animation-play-state: paused;
+}
+
+.\[mask-image\:linear-gradient\(to_right\2c
+  transparent\2c
+  white_20\%\2c
+  white_80\%\2c
+  transparent\)\] {
+  /* -webkit-mask-image:linear-gradient(90deg,transparent,#fff 20%,#fff 80%,transparent); */
+  mask-image: linear-gradient(
+    90deg,
+    transparent,
+    #fff 20%,
+    #fff 80%,
+    transparent
+  );
+}

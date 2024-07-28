@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.group:hover .group-hover\\:block {
+  display: block;
+}
+
+.main-class {
+  position: relative;
+  background-image: radial-gradient(
+    circle farthest-corner at 100% 50%,
+    #d1d3d6,
+    #fcfcfd
+  );
+}
+
+.link_decoration a,
+.markdown_body a {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  transition-property: text-decoration-thickness;
+  transition-property: text-decoration-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.3s;
+  text-decoration-color: #e4e4e7;
+}
+
+.link_decoration a:hover,
+.markdown_body a:hover {
+  text-decoration-thickness: 3px;
+  text-decoration-color: #fff;
+}
