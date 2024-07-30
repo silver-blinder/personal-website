@@ -2,7 +2,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="w-full px-4 lg:px-16 xl:px-32 2xl:px-44 relative z-10 py-36 md:py-48"
+      className="w-full px-4 lg:px-16 xl:px-32 2xl:px-44 relative z-10 py-36 md:py-48 transition-transform duration-200 ease-in-out fade-in"
     >
       <p className=" mt-0 text-center text-gray-400 text-2xl">
         Use Some Tags To

@@ -24,7 +24,7 @@ const Home = () => {
   ];
 
   return (
-    <section id="" className="mt-8 min-w-0 max-w-screen overflow-hidden lg:mt-[-4.5rem] lg:h-dvh lg:min-h-[800px] transition-transform duration-200 ease-in-out fade-in">
+    <section id="home" className="mt-8 min-w-0 max-w-screen overflow-hidden lg:mt-[-4.5rem] lg:h-dvh lg:min-h-[800px] transition-transform duration-200 ease-in-out fade-in">
       <div className="relative mx-auto block size-full min-w-0 max-w-[1800px] flex-col flex-wrap items-center lg:flex lg:flex-row">
         <div className=" justify-center flex w-full flex-col lg:w-1/2 mt-[120px] lg:mt-0 h-[15rem] lg:h-1/2">
           <div className="flex justify-center">

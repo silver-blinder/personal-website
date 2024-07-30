@@ -6,7 +6,7 @@ const Projects = () => {
       description: (
         <>
           It's my personal website, where you can know me from every aspects. It
-          features<strong>rich content and a beautiful layout</strong> . Hope
+          features <strong>rich content and a beautiful layout</strong> . Hope
           you will like it.
         </>
       ),
@@ -46,7 +46,8 @@ const Projects = () => {
           Like mainstream social media applications, it covers almost all basic
           features such as <strong>login and registration</strong>;{" "}
           <strong>creating</strong>, <strong>editing</strong>,{" "}
-          <strong>liking</strong>, and <strong>bookmarking posts</strong>...
+          <strong>liking</strong>, and <strong>bookmarking posts</strong> ;{" "}
+          <strong>social function such as Explore and People</strong> ...
         </>
       ),
       technologies: (
@@ -64,7 +65,7 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="relative py-12 px-3 lg:px-[5%]">
+    <section id="projects" className="relative py-12 px-3 lg:px-[5%] transition-transform duration-200 ease-in-out fade-in">
       <p className="text-center text-gray-400 text-2xl">Browse My</p>
       <h1 className="text-center text-black font-bold text-5xl font-sans">
         Recent Projects
@@ -82,7 +83,7 @@ const Projects = () => {
               <img
                 src={project.image}
                 alt={project.title}
-                className="rounded-2xl w-52 h-52 lg:w-auto lg:h-auto cursor-pointer transition-transform hover:scale-105"
+                className="rounded-2xl w-auto h-auto cursor-pointer transition-transform hover:scale-105"
                 onClick={() => (window.location.href = project.liveDemo)}
               />
               <div className="flex flex-col text-wrap justify-center">

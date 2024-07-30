@@ -3,7 +3,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="mx-[5%] lg:mx-40 relative h-auto pt-[4vh] min-h-screen"
+      className="mx-[5%] lg:mx-40 relative h-auto pt-[4vh] min-h-screen transition-transform duration-200 ease-in-out fade-in"
     >
       <p className=" text-center text-gray-400 text-2xl">Explore My</p>
       <h1 className="text-center text-black font-bold text-5xl">Experience</h1>
