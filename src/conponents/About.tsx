@@ -16,6 +16,12 @@ const About = () => {
             <p className="text-xl text-white ">#Location: Shanghai, China</p>
             <p className="text-xl text-white  ">#Grade: Sophomore</p>
           </div>
+          <div className="h-[170px] w-[350px] max-w-full relative rounded-2xl border border-b-0 px-8 py-6 md:w-[450px] overflow-hidden flex flex-col justify-around bg-red-300 ">
+            <p className="text-xl text-white  ">#GMail: xluo8105@gmail.com</p>
+            <p className="text-xl text-white  ">
+              #Phone Number: +86 17773427124
+            </p>
+          </div>
           <div className="h-[170px] w-[350px] max-w-full relative rounded-2xl border border-b-0 px-8 py-6 md:w-[450px] overflow-hidden flex flex-col justify-around bg-purple-800 ">
             <p className="text-lg text-wrap text-white  ">
               #School: Nanjing University of Posts and Telecommunications
@@ -28,9 +34,16 @@ const About = () => {
             <p className="text-xl text-white  ">#CET-4/6: Passed</p>
             <p className="text-xl text-white  ">#NCRE-2: Passed</p>
           </div>
+
           <div className="h-[170px] w-[350px] max-w-full relative rounded-2xl border border-b-0 px-8 py-6 md:w-[450px] overflow-hidden flex flex-col justify-around bg-green-800 ">
             <p className="text-xl text-white  ">#Location: Shanghai, China</p>
             <p className="text-xl text-white  ">#Grade: Sophomore</p>
+          </div>
+          <div className="h-[170px] w-[350px] max-w-full relative rounded-2xl border border-b-0 px-8 py-6 md:w-[450px] overflow-hidden flex flex-col justify-around bg-red-300 ">
+            <p className="text-xl text-white  ">#GMail: xluo8105@gmail.com</p>
+            <p className="text-xl text-white  ">
+              #Phone Number: +86 17773427124
+            </p>
           </div>
           <div className="h-[170px] w-[350px] max-w-full relative rounded-2xl border border-b-0 px-8 py-6 md:w-[450px] overflow-hidden flex flex-col justify-around bg-purple-800 ">
             <p className="text-lg text-white  ">
@@ -77,7 +90,7 @@ const About = () => {
                 <p className="text-lg font-bold">silver-blinder</p>
                 <div className="text-md flex justify-around items-center text-gray-200">
                   <img
-                    src="public/images/github-mark-white.png"
+                    src="/images/github-mark-white.png"
                     className="w-10 h-10 rounded-full"
                   />
                 </div>
@@ -97,7 +110,7 @@ const About = () => {
                 <p className="text-lg font-bold">风流倜傥夜无邪</p>
                 <div className="text-md flex justify-around items-center text-gray-200">
                   <img
-                    src="public/images/douban.png"
+                    src="/images/douban.png"
                     className="w-10 h-10 rounded-full"
                   />
                 </div>
@@ -117,7 +130,7 @@ const About = () => {
                 <p className="text-lg font-bold">核糖体</p>
                 <div className="text-md flex justify-around items-center text-gray-200">
                   <img
-                    src="public/images/wyy.png"
+                    src="/images/wyy.png"
                     className="w-10 h-10 rounded-full"
                   />
                 </div>
@@ -137,7 +150,7 @@ const About = () => {
                 <p className="text-lg font-bold">silver-blinder</p>
                 <div className="text-md flex justify-around items-center text-gray-200">
                   <img
-                    src="public/images/github-mark-white.png"
+                    src="/images/github-mark-white.png"
                     className="w-10 h-10 rounded-full"
                   />
                 </div>
@@ -157,7 +170,7 @@ const About = () => {
                 <p className="text-lg font-bold">风流倜傥夜无邪</p>
                 <div className="text-md flex justify-around items-center text-gray-200">
                   <img
-                    src="public/images/douban.png"
+                    src="/images/douban.png"
                     className="w-10 h-10 rounded-full"
                   />
                 </div>

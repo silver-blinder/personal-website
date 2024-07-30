@@ -1,7 +1,7 @@
 const Projects = () => {
   const projects = [
     {
-      image: "public/images/project-1.png",
+      image: "/images/project-1.png",
       title: "Personal website",
       description: (
         <>
@@ -19,7 +19,7 @@ const Projects = () => {
       liveDemo: "https://rgram-social-media.vercel.app/sign-in",
     },
     {
-      image: "public/images/project-2.png",
+      image: "/images/project-2.png",
       title: "Travel Blog",
       description: (
         <>
@@ -39,7 +39,7 @@ const Projects = () => {
       liveDemo: "https://github.com/silver-blinder/travel-blog",
     },
     {
-      image: "public/images/project-3.png",
+      image: "/images/project-3.png",
       title: "Social Media App",
       description: (
         <>

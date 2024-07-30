@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 const Hobbies = () => {
   const album = [
     {
-      src: "public/images/caodong.png",
+      src: "/images/caodong.png",
       singer: "No Party for CaoDong",
       title: "The Servile",
       description:
@@ -11,7 +11,7 @@ const Hobbies = () => {
       link: "https://zh.wikipedia.org/wiki/%E9%86%9C%E5%A5%B4%E5%85%92_(%E5%B0%88%E8%BC%AF)#",
     },
     {
-      src: "public/images/pink.png",
+      src: "/images/pink.png",
       singer: "Pink Floyd",
       title: "The Dark Side of the Moon",
       description:
@@ -19,7 +19,7 @@ const Hobbies = () => {
       link: "https://en.wikipedia.org/wiki/The_Dark_Side_of_the_Moon",
     },
     {
-      src: "public/images/velvet.png",
+      src: "/images/velvet.png",
       singer: "the Velvet Underground & Nico",
       title: "The Velvet Underground & Nico",
       description:
@@ -27,7 +27,7 @@ const Hobbies = () => {
       link: "https://en.wikipedia.org/wiki/The_Velvet_Underground_%26_Nico",
     },
     {
-      src: "public/images/abnormal.png",
+      src: "/images/abnormal.png",
       singer: "the Strokes",
       title: "The New Abnormal",
       description:
@@ -35,7 +35,7 @@ const Hobbies = () => {
       link: "https://en.wikipedia.org/wiki/The_New_Abnormal",
     },
     {
-      src: "public/images/greenday.png",
+      src: "/images/greenday.png",
       singer: "Green Day",
       title: "American Idiot",
       description:
@@ -46,35 +46,35 @@ const Hobbies = () => {
 
   const singers = [
     {
-      src: "public/images/anpu.png",
+      src: "/images/anpu.png",
       singer: "Anpu",
       description:
         "'Anpu's music often features profound life experiences and emotional expressions, which are deeply loved by listeners.'",
       link: "https://zh.wikipedia.org/wiki/%E5%AE%89%E6%BA%A5",
     },
     {
-      src: "public/images/lana_del_rey.png",
+      src: "/images/lana_del_rey.png",
       singer: "Lana Del Rey",
       description:
         "'Lana Del Rey's music is known for its stylized cinematic quality, its themes of tragic romance, glamour, and melancholia.'",
       link: "https://en.wikipedia.org/wiki/Lana_Del_Rey",
     },
     {
-      src: "public/images/frank_ocean.png",
+      src: "/images/frank_ocean.png",
       singer: "Frank Ocean",
       description:
         "'Frank Ocean is known for his avant-garde style and unconventional production techniques, which have been highly influential in contemporary music.'",
       link: "https://en.wikipedia.org/wiki/Frank_Ocean",
     },
     {
-      src: "public/images/eason_chan.png",
+      src: "/images/eason_chan.png",
       singer: "Eason Chan",
       description:
         "'Eason Chan is hailed as one of the representatives of Mandopop, with his music widely popular and spanning multiple genres.'",
       link: "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%A5%95%E8%BF%85",
     },
     {
-      src: "public/images/john_lennon.png",
+      src: "/images/john_lennon.png",
       singer: "John Lennon",
       description:
         "'John Lennon was an English singer, songwriter, and peace activist who co-founded the Beatles, the most commercially successful band in the history of popular music.'",
@@ -116,7 +116,7 @@ const Hobbies = () => {
           <div className="p-6 rounded-3xl bg-slate-700 text-gray-50">
             <div className="flex justify-center items-center">
               <img
-                src="public/images/music-2.png"
+                src="/images/music-2.png"
                 alt="music"
                 className="rounded-xl mb-6"
               />
@@ -154,7 +154,7 @@ const Hobbies = () => {
               </li>
             </ul>
             <img
-              src="public/images/guitar.png"
+              src="/images/guitar.png"
               alt="guitar"
               className="bg-gray-200 mt-8 rounded-lg transition-transform hover:scale-105 cursor-pointer"
               onClick={() =>

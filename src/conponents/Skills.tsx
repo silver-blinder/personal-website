@@ -15,7 +15,7 @@ const Skills = () => {
           <div className="flex text-left flex-wrap flex-row gap-10 justify-around">
             <div className="flex flex-row items-center justify-around w-40 gap-2 flex-wrap">
               <img
-                src="public/images/checkmark.png"
+                src="/images/checkmark.png"
                 alt="Experience icon"
                 className="h-8"
               />
@@ -26,7 +26,7 @@ const Skills = () => {
             </div>
             <div className="flex flex-row items-center justify-around w-40 gap-2">
               <img
-                src="public/images/checkmark.png"
+                src="/images/checkmark.png"
                 alt="Experience icon"
                 className="h-8"
               />
@@ -37,7 +37,7 @@ const Skills = () => {
             </div>
             <div className="flex flex-row items-center justify-around w-40 gap-2">
               <img
-                src="public/images/checkmark.png"
+                src="/images/checkmark.png"
                 alt="Experience icon"
                 className="h-8"
               />
@@ -48,7 +48,7 @@ const Skills = () => {
             </div>
             <div className="flex flex-row items-center justify-around w-40 gap-2">
               <img
-                src="public/images/checkmark.png"
+                src="/images/checkmark.png"
                 alt="Experience icon"
                 className="h-8"
               />
@@ -59,7 +59,7 @@ const Skills = () => {
             </div>
             <div className="flex flex-row items-center justify-around w-40 gap-2">
               <img
-                src="public/images/checkmark.png"
+                src="/images/checkmark.png"
                 alt="Experience icon"
                 className="h-8"
               />
@@ -84,7 +84,7 @@ const Skills = () => {
           <div className="flex text-left flex-wrap flex-row gap-8 justify-around">
             <div className="flex flex-row items-center justify-around w-40 gap-2">
               <img
-                src="public/images/checkmark.png"
+                src="/images/checkmark.png"
                 alt="Experience icon"
                 className="h-8"
               />
@@ -95,7 +95,7 @@ const Skills = () => {
             </div>
             <div className="flex flex-row items-center justify-around w-40 gap-2">
               <img
-                src="public/images/checkmark.png"
+                src="/images/checkmark.png"
                 alt="Experience icon"
                 className="h-8"
               />
@@ -106,7 +106,7 @@ const Skills = () => {
             </div>
             <div className="flex flex-row items-center justify-around w-40 gap-2">
               <img
-                src="public/images/checkmark.png"
+                src="/images/checkmark.png"
                 alt="Experience icon"
                 className="h-8"
               />

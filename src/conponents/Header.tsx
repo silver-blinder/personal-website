@@ -19,6 +19,20 @@ const Header = () => {
             Hobbies
           </a>
         </nav>
+        <div className="flex text-2xl slate-700 justify-start items-center gap-x-4 ">
+          <a target="_blank" href="https://github.com/silver-blinder">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+          <a target="_blank" href="https://mail.google.com/mail/u/0/#inbox">
+            <ion-icon name="mail-outline"></ion-icon>
+          </a>
+          <a
+            target="_blank"
+            href="https://music.163.com/#/user/home?id=429211086"
+          >
+            <ion-icon name="musical-notes-outline"></ion-icon>
+          </a>
+        </div>
       </div>
     </header>
   );
