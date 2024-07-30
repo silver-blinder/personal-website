@@ -78,7 +78,7 @@ const Home = () => {
           <div className="relative max-w-full lg:max-w-2xl">
             <div className="lg:size-[300px] size-[200px] mt-24 lg:mt-0">
               <img
-                src="/public/images/proflie.jpg"
+                src="/images/proflie.jpg"
                 alt="profile"
                 className="aspect-square rounded-full border border-slate-200 dark:border-neutral-800 w-full"
                 width={300}

@@ -57,7 +57,7 @@ const About = () => {
                 <p className="text-lg font-bold">核糖体</p>
                 <div className="text-md flex justify-around items-center text-gray-200">
                   <img
-                    src="public/images/wyy.png"
+                    src="/images/wyy.png"
                     className="w-10 h-10 rounded-full"
                   />
                 </div>
