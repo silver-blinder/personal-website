@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
+import { TextGenerateEffects } from "./ui/text-generate-effect";
 
 const Home = () => {
   const [hoveredOption, setHoveredOption] = useState("");
@@ -7,12 +8,10 @@ const Home = () => {
   const [showSecond, setShowSecond] = useState(false);
 
   useEffect(() => {
-    // 显示第一行
     setShowFirst(true);
-    // 等待第一行动画完成，然后显示第二行
     const timer = setTimeout(() => {
       setShowSecond(true);
-    }, 3000); // 确保这个时间与 typing 动画持续时间相匹配
+    }, 1500);
 
     return () => clearTimeout(timer);
   }, []);
@@ -61,22 +60,16 @@ const Home = () => {
                 ))}
               </CardItem>
               <CardItem translateZ="100">
-                <div className="mt-10">
-                  <p
-                    className={`font-bold text-3xl typewriter ${
-                      showFirst ? "visible" : "invisible"
-                    }`}
-                  >
-                    Nice to meet you👋
-                  </p>
-                </div>
-                <div className="mt-3 whitespace-nowrap flex">
-                  <p
-                    className={`font-bold text-3xl typewriter ${showSecond ? "visible" : "hidden"}`}
-                  >
-                    Feel free to contact me !
-                  </p>
-                </div>
+                {showFirst && (
+                  <div className="mt-10">
+                    <TextGenerateEffects words="Nice to meet you👋" />
+                  </div>
+                )}
+                {showSecond && (
+                  <div className="whitespace-nowrap flex">
+                    <TextGenerateEffects words="Feel free to contact me !" />
+                  </div>
+                )}
               </CardItem>
             </CardBody>
           </CardContainer>
