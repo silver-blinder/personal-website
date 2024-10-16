@@ -200,7 +200,7 @@ const Hobbies = () => {
           <div className="overflow-hidden">
             <Carousel
               items={album.map((album, index) => (
-                <AlbumCard key={album.src} album={album} index={index} />
+                <AlbumCard key={album.src} album={album} />
               ))}
             />
           </div>
@@ -223,7 +223,7 @@ const Hobbies = () => {
           <div className="overflow-hidden">
             <Carousel
               items={singers.map((singer, index) => (
-                <SingerCard key={singer.src} singer={singer} index={index} />
+                <SingerCard key={singer.src} singer={singer} />
               ))}
             />
           </div>
@@ -234,7 +234,7 @@ const Hobbies = () => {
 };
 
 // Updated AlbumCard component
-const AlbumCard = ({ album, index }) => (
+const AlbumCard = ({ album }: { album: any }) => (
   <div className="w-64 h-64 rounded-xl bg-white overflow-hidden relative group">
     <img
       src={album.src}
@@ -256,8 +256,8 @@ const AlbumCard = ({ album, index }) => (
   </div>
 );
 
-// Existing SingerCard component
-const SingerCard = ({ singer, index }) => (
+// Updated SingerCard component
+const SingerCard = ({ singer }: { singer: any }) => (
   <div className="w-64 h-64 rounded-xl bg-white overflow-hidden relative group">
     <img
       src={singer.src}
