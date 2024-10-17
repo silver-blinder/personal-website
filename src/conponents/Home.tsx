@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
 import { TextGenerateEffects } from "./ui/text-generate-effect";
+import { BackgroundLines } from "./ui/background-lines";
 
 const Home = () => {
   const [hoveredOption, setHoveredOption] = useState("");
@@ -29,7 +30,7 @@ const Home = () => {
       className="mt-8 min-w-0 max-w-screen overflow-hidden lg:mt-0 lg:h-dvh lg:min-h-[900px] transition-transform duration-200 ease-in-out fade-in flex items-center justify-center"
     >
       <div className="relative mx-auto flex size-full min-w-0 flex-col items-center justify-center lg:flex-row lg:max-w-6xl lg:px-4">
-        <div className="flex w-full justify-center lg:w-1/2 mt-[120px] lg:mt-0 h-[15rem] lg:h-auto">
+        <div className="flex w-full justify-center lg:w-1/2 mt-[120px] lg:mt-0 h-[15rem] lg:h-auto z-10">
           <CardContainer>
             <CardBody className="p-8 relative bg-slate-100 rounded-3xl">
               <CardItem translateZ="50">
@@ -74,19 +75,19 @@ const Home = () => {
             </CardBody>
           </CardContainer>
         </div>
-        <div className="flex items-center justify-center w-full mt-5 lg:mt-0 lg:w-1/2">
-          <div className="relative max-w-full lg:max-w-2xl">
-            <div className="lg:size-[300px] size-[200px] mt-24 lg:mt-0">
+        <BackgroundLines className="flex items-center justify-center px-4 lg:w-1/2">
+          <div className="w-full flex justify-center">
+            <div className="relative w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] mt-24 lg:mt-0">
               <img
                 src="/images/profile.jpg"
                 alt="profile"
-                className="aspect-square rounded-full border border-slate-200 dark:border-neutral-800 w-full"
+                className="rounded-full border border-slate-200 dark:border-neutral-800 w-full h-full object-cover"
                 width={300}
                 height={300}
               />
             </div>
           </div>
-        </div>
+        </BackgroundLines>
       </div>
     </section>
   );
