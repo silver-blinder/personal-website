@@ -1,28 +1,28 @@
-import { useEffect, useState } from "react";
-import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
-import { TextGenerateEffects } from "./ui/text-generate-effect";
-import { BackgroundLines } from "./ui/background-lines";
+import { useEffect, useState } from 'react'
+import { CardBody, CardContainer, CardItem } from './ui/3d-card'
+import { BackgroundLines } from './ui/background-lines'
+import { TextGenerateEffects } from './ui/text-generate-effect'
 
-const Home = () => {
-  const [hoveredOption, setHoveredOption] = useState("");
-  const [showFirst, setShowFirst] = useState(false);
-  const [showSecond, setShowSecond] = useState(false);
+function Home() {
+  const [hoveredOption, setHoveredOption] = useState('')
+  const [showFirst, setShowFirst] = useState(false)
+  const [showSecond, setShowSecond] = useState(false)
 
   useEffect(() => {
-    setShowFirst(true);
+    setShowFirst(true)
     const timer = setTimeout(() => {
-      setShowSecond(true);
-    }, 1500);
+      setShowSecond(true)
+    }, 1500)
 
-    return () => clearTimeout(timer);
-  }, []);
+    return () => clearTimeout(timer)
+  }, [])
 
   const options = [
-    { href: "/#about", text: "In-college student" },
-    { href: "/#skills", text: "Front-end developer" },
-    { href: "/#projects", text: "Traveler" },
-    { href: "/#hobbies", text: "Music lover" },
-  ];
+    { href: '/#about', text: 'In-college student' },
+    { href: '/#skills', text: 'Front-end developer' },
+    { href: '/#projects', text: 'Traveler' },
+    { href: '/#hobbies', text: 'Music lover' },
+  ]
 
   return (
     <section
@@ -45,14 +45,14 @@ const Home = () => {
               >
                 <p className="text-lg mb-4 text-start font-bold">I&apos;m a:</p>
 
-                {options.map((option) => (
+                {options.map(option => (
                   <div
                     key={option.text}
                     className={`hover:scale-110 transition-transform duration-200 ${
-                      hoveredOption && hoveredOption !== option.text ? "opacity-30" : "opacity-100"
+                      hoveredOption && hoveredOption !== option.text ? 'opacity-30' : 'opacity-100'
                     }`}
                     onMouseEnter={() => setHoveredOption(option.text)}
-                    onMouseLeave={() => setHoveredOption("")}
+                    onMouseLeave={() => setHoveredOption('')}
                   >
                     <a href={option.href} className="whitespace-nowrap">
                       {option.text}
@@ -90,7 +90,7 @@ const Home = () => {
         </BackgroundLines>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

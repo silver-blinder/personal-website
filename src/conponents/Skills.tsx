@@ -1,33 +1,35 @@
-"use client";
+'use client'
 
-import { HoverEffect } from "./ui/card-hover-effect";
-import { IconCloud } from "./ui/IconCloud";
+import { HoverEffect } from './ui/card-hover-effect'
+import { IconCloud } from './ui/IconCloud'
 
 const slugs = [
-  "typescript",
-  "javascript",
-  "react",
-  "html5",
-  "css3",
-  "git",
-  "github",
-  "tailwindcss",
-  "nextdotjs",
-  "cplusplus",
-  "python",
-  "vercel",
-];
+  'typescript',
+  'javascript',
+  'react',
+  'html5',
+  'css3',
+  'git',
+  'github',
+  'tailwindcss',
+  'nextdotjs',
+  'cplusplus',
+  'python',
+  'vercel',
+]
 
 const skills = [
   {
-    title: "React/Next.js",
+    title: 'React/Next.js',
     description: (
       <div className="leading-relaxed">
-        I built some personal website using Next.js and React, which you can see{" "}
+        I built some personal website using Next.js and React, which you can see
+        {' '}
         <a href="/#projects" className="underline underline-offset-4">
           in the project section
         </a>
-        . Also, I help built{" "}
+        . Also, I help built
+        {' '}
         <a
           href="https://dreamle.ai"
           target="_blank"
@@ -35,13 +37,14 @@ const skills = [
           className="underline underline-offset-4"
         >
           dreamle.ai
-        </a>{" "}
+        </a>
+        {' '}
         at Company Decoda AI mainly with React and Next.js
       </div>
     ),
   },
   {
-    title: "Typescript/Javascript",
+    title: 'Typescript/Javascript',
     description: (
       <div className="leading-relaxed">
         I have a solid foundation in Typescript and Javascript, which is the main language I use for
@@ -50,7 +53,7 @@ const skills = [
     ),
   },
   {
-    title: "HTML5/CSS3",
+    title: 'HTML5/CSS3',
     description: (
       <div className="leading-relaxed">
         The basic of web development, I am comfortable with both functional and class-based
@@ -59,7 +62,7 @@ const skills = [
     ),
   },
   {
-    title: "Git/Github",
+    title: 'Git/Github',
     description: (
       <div className="leading-relaxed">
         I am comfortable with the workflow of Git and Github and I often use it for collaborating
@@ -68,7 +71,7 @@ const skills = [
     ),
   },
   {
-    title: "TailwindCSS",
+    title: 'TailwindCSS',
     description: (
       <div className="leading-relaxed">
         A modern CSS framework, which I often use for building responsive and beautiful website.
@@ -76,7 +79,7 @@ const skills = [
     ),
   },
   {
-    title: "Python",
+    title: 'Python',
     description: (
       <div className="leading-relaxed">
         I used Python for building some deep learning models. I made a dog-nose-detection model
@@ -84,9 +87,9 @@ const skills = [
       </div>
     ),
   },
-];
+]
 
-const Skills = () => {
+function Skills() {
   return (
     <section
       id="skills"
@@ -101,7 +104,7 @@ const Skills = () => {
         <HoverEffect items={skills} className="lg:w-1/2 w-full" />
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Skills;
+export default Skills

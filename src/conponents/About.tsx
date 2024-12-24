@@ -1,4 +1,4 @@
-const About = () => {
+function About() {
   return (
     <section
       id="about"
@@ -184,7 +184,7 @@ const About = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default About;
+export default About

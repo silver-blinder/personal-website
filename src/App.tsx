@@ -1,5 +1,5 @@
-import "./App.css";
-import { About, Header, Hobbies, Home, Projects, Skills } from "./conponents";
+import { About, Header, Hobbies, Home, Projects, Skills } from './conponents'
+import './App.css'
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         </div>
       </main>
     </>
-  );
+  )
 }
 
-export default App;
+export default App

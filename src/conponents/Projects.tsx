@@ -1,12 +1,16 @@
-const Projects = () => {
+function Projects() {
   const projects = [
     {
-      image: "/images/project-1.png",
-      title: "Personal website",
+      image: '/images/project-1.png',
+      title: 'Personal website',
       description: (
         <>
           It's my personal website, where you can know me from every aspects. It
-          features <strong>rich content and a beautiful layout</strong> . Hope
+          features
+          {' '}
+          <strong>rich content and a beautiful layout</strong>
+          {' '}
+          . Hope
           you will like it.
         </>
       ),
@@ -15,15 +19,16 @@ const Projects = () => {
           <strong>Vite + React, TypeScript, and Tailwind CSS</strong>
         </>
       ),
-      github: "https://github.com/silver-blinder/personal-website",
-      liveDemo: "https://rgram-social-media.vercel.app/sign-in",
+      github: 'https://github.com/silver-blinder/personal-website',
+      liveDemo: 'https://rgram-social-media.vercel.app/sign-in',
     },
     {
-      image: "/images/project-2.png",
-      title: "Travel Blog",
+      image: '/images/project-2.png',
+      title: 'Travel Blog',
       description: (
         <>
-          It is my personal travel blog, featuring{" "}
+          It is my personal travel blog, featuring
+          {' '}
           <strong>
             dynamic pagination and recordings of those precious mermories
           </strong>
@@ -35,19 +40,34 @@ const Projects = () => {
           <strong>Vite + React, JavaScript, Tailwind CSS</strong>
         </>
       ),
-      github: "https://github.com/silver-blinder/travel-blog",
-      liveDemo: "https://github.com/silver-blinder/travel-blog",
+      github: 'https://github.com/silver-blinder/travel-blog',
+      liveDemo: 'https://github.com/silver-blinder/travel-blog',
     },
     {
-      image: "/images/project-3.png",
-      title: "Social Media App",
+      image: '/images/project-3.png',
+      title: 'Social Media App',
       description: (
         <>
           Like mainstream social media applications, it covers almost all basic
-          features such as <strong>login and registration</strong>;{" "}
-          <strong>creating</strong>, <strong>editing</strong>,{" "}
-          <strong>liking</strong>, and <strong>bookmarking posts</strong> ;{" "}
-          <strong>social function such as Explore and People</strong> ...
+          features such as
+          {' '}
+          <strong>login and registration</strong>
+          ;
+          {' '}
+          <strong>creating</strong>
+          ,
+          <strong>editing</strong>
+          ,
+          {' '}
+          <strong>liking</strong>
+          , and
+          <strong>bookmarking posts</strong>
+          {' '}
+          ;
+          {' '}
+          <strong>social function such as Explore and People</strong>
+          {' '}
+          ...
         </>
       ),
       technologies: (
@@ -55,14 +75,16 @@ const Projects = () => {
           <strong>
             Vite + React, TypeScript, React Query, and Tailwind CSS
           </strong>
-          . The backend platform used is{" "}
-          <strong>Appwrite Cloud Platform</strong>.
+          . The backend platform used is
+          {' '}
+          <strong>Appwrite Cloud Platform</strong>
+          .
         </>
       ),
-      github: "https://github.com/silver-blinder/SocialMediaApp",
-      liveDemo: "https://rgram-social-media.vercel.app/sign-in",
+      github: 'https://github.com/silver-blinder/SocialMediaApp',
+      liveDemo: 'https://rgram-social-media.vercel.app/sign-in',
     },
-  ];
+  ]
 
   return (
     <section id="projects" className="relative py-12 px-3 lg:px-[5%] transition-transform duration-200 ease-in-out fade-in">
@@ -115,7 +137,7 @@ const Projects = () => {
         ))}
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Projects;
+export default Projects
