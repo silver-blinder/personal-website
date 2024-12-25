@@ -1,4 +1,4 @@
-import { About, Header, Hobbies, Home, Projects, Skills } from './conponents'
+import { About, Header, Hobbies, Home, Projects, Skills, Travel } from './conponents'
 import './App.css'
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
             <Skills />
             <Projects />
             <Hobbies />
+            <Travel />
           </>
         </div>
       </main>

@@ -20,7 +20,7 @@ function Home() {
   const options = [
     { href: '/#about', text: 'In-college student' },
     { href: '/#skills', text: 'Front-end developer' },
-    { href: '/#projects', text: 'Traveler' },
+    { href: '/#travel', text: 'Traveler' },
     { href: '/#hobbies', text: 'Music lover' },
   ]
 
